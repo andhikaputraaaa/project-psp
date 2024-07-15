@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploreasy</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <h1><a href="index.html">Explor<span class="orange-text">easy</span></a></h1>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#kuta">Places</a></li>
+                <li><a href="#footer">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-text">
+                <h1 class="tagline">Jelajahi Pesona Nusantara Tanpa Batas</h1>
+                <hr class="orange-line">
+                <p>Selamat datang di Exploreasy, disini Anda akan menemukan berbagai artikel tentang destinasi wisata yang ada di Indonesia. Ayo jelajahi pesona nusantara dan temukan tempat-tempat indah yang bisa kita nikmati.</p>
+                <a href="#kuta"><button>Explore now</button></a>
+            </div>
+            <aside>
+            <div class="content-image">
+                <img src="image/bromo.jpg" alt="Gunung Bromo">
+            </div>
+            </aside>
+        </div>
+
+        <div class="information">
+            <article id="kuta" class="card">
+                <h2>Pantai Kuta</h2>
+                <img src="image/kuta.jpg" alt="Sejarah" class="featured-image">
+                <p>Salah satu destinasi wisata populer di Indonesia yang tak boleh dilewatkan adalah Pantai Kuta. Pantai ini berlokasi di Bali, pusat destinasi wisata Indonesia. Pasir putih yang landai dan panjang membentang sepanjang garis pantai, air laut yang jernih, serta ombak yang besar membuat Pantai Kuta menjadi destinasi populer. Setiap pengunjung bisa mendapatkan pengalaman destinasi wisata yang tak terlupakan di sini. Di samping itu, kawasan sekitar Pantai Kuta juga menawarkan berbagai fasilitas, seperti hotel, restoran, dan penyewaan papan selancar, menjadikannya salah satu destinasi yang bisa dinikmati oleh banyak orang.
+                </p>
+                <p>Selain pemandangan alamnya yang mempesona, Pantai Kuta juga memiliki nilai sejarah. Dulunya, Kuta hanya berupa desa nelayan yang sederhana, kemudian menjadi daerah padat penduduk saat ini. Pantai Kuta memiliki daya tarik tersendiri bagi para wisatawan, mulai dari berjemur, berenang, bermain voli pantai, hingga menyaksikan matahari terbenam yang menakjubkan. Selain itu, di sepanjang pantai juga terdapat banyak pusat perbelanjaan dan pasar seni yang menjual aneka kerajinan tangan Bali, semakin melengkapi produk wisata di Kuta.</p>
+            </article>
+             
+            <article id="bromo" class="card">
+                <h2 >Gunung Bromo</h2>
+                <img src="image/bromo.jpg" alt="Geografis" class="featured-image">
+                <p>Gunung Bromo, yang terletak di Jawa Timur adalah salah satu gunung berapi paling ikonik di Indonesia dan menjadi tujuan wisata favorit bagi para pecinta alam dan fotografi. Dengan ketinggian sekitar 2.329 meter di atas permukaan laut, Gunung Bromo menawarkan pemandangan yang menakjubkan, terutama saat matahari terbit. Kawah aktifnya yang terus mengeluarkan asap putih, dikelilingi oleh lautan pasir yang luas, menciptakan pemandangan alam yang luar biasa. Keindahan alam ini sering dijadikan latar belakang bagi para fotografer untuk menangkap momen-momen yang tak terlupakan.</p>
+                <p>Selain keindahan alamnya, Gunung Bromo juga memiliki nilai budaya yang tinggi bagi masyarakat Tengger yang tinggal di sekitarnya. Setiap tahun, suku Tengger mengadakan upacara Yadnya Kasada, sebuah ritual yang bertujuan untuk memberikan sesajen kepada para dewa yang diyakini bersemayam di Gunung Bromo. Upacara ini menjadi daya tarik tersendiri bagi wisatawan yang ingin menyaksikan dan memahami budaya lokal. Akses menuju Gunung Bromo juga relatif mudah, dengan berbagai pilihan transportasi dan fasilitas akomodasi yang tersedia di sekitar kawasan Taman Nasional Bromo Tengger Semeru.</p>
+            </article>
+        </div>
+        <div id="feedback" class="card">
+            <h2>Feedback</h2>
+            <form>
+                <input type="text" name="nama" id="nama" placeholder="Nama">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea>
+                <button type="button" onclick="send()">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        &copy; Exploreasy, 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

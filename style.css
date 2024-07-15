@@ -1,0 +1,194 @@
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange-text {
+    color: #f76f39;
+}
+
+.orange-line {
+    height: 5px;
+    background-color: #f76f39;
+    border: 0px;
+}
+
+header.header-container {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    padding-block: 1rem;
+    margin-inline: auto; 
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
+
+header.header-container .logo h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header.header-container .nav-list ul{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+header.header-container .nav-list ul li {
+    list-style-type: none;
+}
+
+header.header-container .nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+header.header-container .nav-list ul li a:hover {
+    color: #f76f39;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    padding-top: rem;
+    flex-wrap: wrap;
+}
+
+main .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+main .content .content-text {
+    width: 50%;
+    order: 0;
+}
+
+main .content .content-text .tagline{
+    font-size: 4rem;
+}
+
+
+main .content .content-text button {
+    padding: 1rem 2rem;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background-color: #f76f39;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+main .content .content-text button:hover {
+    border: 2px solid #f76f39;
+    background-color: transparent;
+}
+
+main .content .content-img {
+    display: flex;
+    width: 50%;
+    order: 1;
+}
+
+
+
+main .content .content-image img {
+    width: 350px;
+    border-radius: 70px;
+    transition: all 0.5s;
+}
+
+main .content .content-image img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+
+main .information #bromo img {
+    width: 450px;
+}
+
+main #feedback {
+    width: 100%;
+    text-align: center;
+}
+
+main #feedback form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #feedback form input {
+    margin-bottom: 15px;
+    height: 2rem;
+    width: 20rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+main #feedback form textarea {
+    height: 8rem;
+    width: 20rem;
+    resize: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+main #feedback form button{
+    padding: 0rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background-color: #f76f39;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 5rem;
+    padding: 20px;
+    color: black;
+    background-color: #f76f39;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+}
+
